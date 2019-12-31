@@ -10,5 +10,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: node --version
+      - run: yarn --version
       - run: yarn install
       - run: yarn karma:ie
