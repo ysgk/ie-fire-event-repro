@@ -1,0 +1,28 @@
+{
+  "name": "ie-fire-event-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "karma:ie": "karma start --single-run --browsers ie_no_addons",
+    "karma:chrome": "karma start --single-run --browsers Chrome"
+  },
+  "dependencies": {
+    "core-js": "^3.6.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@testing-library/react": "^9.4.0",
+    "babel-loader": "^8.0.6",
+    "karma": "^4.4.1",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-webpack": "^4.0.2",
+    "webpack": "^4.41.5"
+  }
+}
