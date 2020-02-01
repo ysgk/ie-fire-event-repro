@@ -24,5 +24,8 @@
     "karma-jasmine": "^2.0.1",
     "karma-webpack": "^4.0.2",
     "webpack": "^4.41.5"
+  },
+  "resolutions": {
+    "**/@testing-library/dom": "https://pkg.csb.dev/testing-library/dom-testing-library/commit/e29c7279/@testing-library/dom"
   }
 }
